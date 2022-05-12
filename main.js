@@ -7,7 +7,7 @@ function help()
 
 function changeText()
 {
-    document.getElementById('topMessage').innerHTML = 'You are already in home! You are causing Recursion';   
+    document.getElementById('topMessage').innerHTML = 'You are already in home!';   
 
 }
 
