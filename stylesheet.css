@@ -12,6 +12,10 @@ header li{
     transform: translate(-50%, -50%);
 
 }
+#topMessage {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
 header ul{
     margin: auto;
     display:inline-block;
@@ -19,6 +23,7 @@ header ul{
 }
 
 header ul a{
+    cursor: pointer;
     text-decoration: none;
     color: black;
 }
