@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+.mainMessage{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+ul{
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+    list-style: square;
+
+}
+
+ul a{
+    color: black;
+    text-decoration:underline;
+}
+
+.tools{
+    text-decoration: underline;
+    color: blue;
+}
+
+.private{
+    color: red;
+}
+
+.under-const{
+    color: rgb(195, 195, 11);
+}
+
+.backButton{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    transition: all .2s ease-in-out;
+}
+
+.backButton a{
+    color: black;
+    text-decoration: none;
+}
