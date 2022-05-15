@@ -50,24 +50,31 @@ header ul a{
     font-size: 30px;
 }
 
-@media only screen and  (max-width: 700px) {
-    header ul{
-        padding: 0;
-        margin: 40px;
+    @media only screen and  (max-width: 700px) {
+        header ul{
+            padding: 0;
+            margin: 40px;
 
-    } 
+        }
+        header li{
+            padding-top: 50px;
+            margin-top: 20px;
+        } 
 
-    .container h1{
-        font-family: 'Bebas Neue', cursive;
-        justify-content: center;
-        text-align: center;
-        font-size: 50px;
-        margin: 0;
-        position: fixed; /* or absolute */
-        top: 20%;
-        left: 50%;
-        /* bring your own prefixes */
-        transform: translate(-50%, -50%);
+        .container h1{
+            font-family: 'Bebas Neue', cursive;
+            justify-content: center;
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+            position: fixed; /* or absolute */
+            top: 20%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: translate(-50%, -50%);
+        }
+        
     }
-    
-}
+
+
+
