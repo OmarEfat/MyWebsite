@@ -74,6 +74,10 @@ header ul a{
             transform: translate(-50%, -50%);
         }
         
+        #topMessage{
+            font-size: 30px;
+        }
+        
     }
 
 
