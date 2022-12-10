@@ -50,6 +50,49 @@
         font-size: 30px;
     }
 
+@media only screen and  (max-width: 700px) {
+    header li{
+        list-style: none;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 17px;
+        top: 55%;
+        display:inline-flex;
+    }
+    #topMessage {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+    }
+    header ul{
+        margin: auto;
+        display:inline-block;
+    }
+    header ul a{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+    .container h1{
+        font-family: 'Bebas Neue', cursive;
+        justify-content: center;
+        text-align: center;
+        font-size: 45px;
+        margin: 0;
+        position: fixed; /* or absolute */
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+    }
+    .container h2{
+        font-family: 'Nanum Gothic Coding', monospace;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 17px;
+    }
+}
+/* 
         @media only screen and  (max-width: 700px) {
             header li{
                 list-style: none;
@@ -98,3 +141,4 @@
             }
             
         }
+ */
