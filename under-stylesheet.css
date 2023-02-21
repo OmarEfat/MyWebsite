@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    transition: all .2s ease-in-out;
+}
 header h1{
     text-align: center;
     list-style: none;
@@ -22,4 +27,22 @@ header h1{
 .backButton a{
     color: black;
     text-decoration: none;
+}
+
+.social{
+    margin-top: 10%;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    font-size: 40px;
+    transition: all .4s ease-in-out;
+    color: black;
+
+}
+
+.social a:hover{
+    text-decoration: underline;
+    font-size: 50px;
+    cursor: pointer;
 }
