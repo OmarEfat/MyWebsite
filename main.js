@@ -7,7 +7,7 @@ function help()
 
 function changeText()
 {
-    document.getElementById('topMessage').innerHTML = 'This is Home!';   
+    document.getElementById('topMessage').innerHTML = 'Yooo, This is home!';
 
 }
 
